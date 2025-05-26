@@ -64,7 +64,8 @@ Summary:	data for migrating tool
 Group:		Applications/Databases
 License:	ASL 2.0
 URL:		https://github.com/AlmaLinux/leapp-data
-Source0:	leapp-data-%{version}.tar.gz
+Source:	    leapp-data-%{version}.tar.gz
+Source:	    leapp_data-%{version}.tar.gz
 BuildArch:  noarch
 
 Conflicts: %{conflict_dists}
